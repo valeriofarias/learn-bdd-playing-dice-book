@@ -1,6 +1,6 @@
-## Solucionando o problema do array em ordem descrescente
+## Solucionando o problema do array em ordem decrescente
 
-Para resoulver esse problema é necessário usar o método `sort!{|x,y| y <=> x }` em cada array: 
+Para resolver esse problema é necessário usar o método `sort!{|x,y| y <=> x }` em cada array: 
 
 	class WarDice 
 		attr_reader :red, :yellow, :reddice, :yellowdice

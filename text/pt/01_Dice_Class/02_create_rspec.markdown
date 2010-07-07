@@ -1,6 +1,6 @@
 ## Criando o arquivo rspec
 
-Primeiro crie a pasta dice e dentro dela crie as pastas lib e spec. Agora crie o arquio dice_spec.rb dentro da pasta spec. Bem! O que está esperando! Vamos escrever o primeiro requisito nesse arquivo. Agora começa a diversão!
+Primeiro crie a pasta dice e dentro dela crie as pastas lib e spec. Agora crie o arquivo dice_spec.rb dentro da pasta spec. Bem! O que está esperando! Vamos escrever o primeiro requisito nesse arquivo. Agora começa a diversão!
 
 	require "rubygems"
 	require "spec"
@@ -20,7 +20,7 @@ Em nosso exemplo com autotest, apenas digite o seguinte comando:
 
 	autospec
 
-Agora o teste executa automaticamente toda vez que savarmos o arquivo.
+Agora o teste executa automaticamente toda vez que salvarmos o arquivo.
 Voltando para nosso exemplo. A saída do primeiro teste quebra porque precisamos criar a classe Dice no arquivo lib/dice.rb.
 
 	spec --autospec spec/dice_spec.rb 

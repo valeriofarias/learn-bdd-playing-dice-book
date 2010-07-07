@@ -1,6 +1,6 @@
 ## Resolvendo o problema dos números
 
-Lógica: Se a classe for inicializada com números diferentes da lista 1-3 então as variáveis serão preenchidas com um número aleatório variando de 1 a 3. Eu farei também uma pequen refatoração no arquivo spec para que ele fique preparado para a situação em que a quantidade de dados for correta. Você pode ver a solução abaixo:
+Lógica: Se a classe for inicializada com números diferentes da lista 1-3 então as variáveis serão preenchidas com um número aleatório variando de 1 a 3. Eu farei também uma pequena refatoração no arquivo spec para que ele fique preparado para a situação em que a quantidade de dados for correta. Você pode ver a solução abaixo:
 
 	class WarDice 
 		attr_reader :red, :yellow

@@ -1,6 +1,6 @@
 ## O código Shoes do aplicativo que usa a classe WarDice
 
-Finalmente a última aplicação. copie o código seguinte em um novo arquiov e salve com o nome wardiceshoes.rb na pasta lib. Eu fiz alguns comentários através do código para facilitar a compreensão. Faça um bom experimento.
+Finalmente a última aplicação. copie o código seguinte em um novo arquivo e salve com o nome wardiceshoes.rb na pasta lib. Eu fiz alguns comentários através do código para facilitar a compreensão. Faça um bom experimento.
 
 	require 'dice'
 
