@@ -3,7 +3,7 @@
 This is a important requirement, but I remembered only now: **wardice Should provide yellow and red dice results with an array in decreasing sort**. You can see the solution below: 
 
 	describe WarDice do
-		it "The attack and defense should use 1, 2 or 3 dice" do 
+		it "The attack and defence should use 1, 2 or 3 dice" do 
 		  wardice = WarDice.new(0, 7)
 		  wardice.red.to_s.should match(/^[1-3]$/)
 		  wardice.yellow.to_s.should match(/^[1-3]$/)

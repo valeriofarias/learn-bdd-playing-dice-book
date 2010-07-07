@@ -3,7 +3,7 @@
 Let's  work now in the last requirement:  **Should compare from bigger to less values and save in array result**
 
 	describe Wardice do
-		it "The attack and defense should use 1, 2 or 3 dice" do 
+		it "The attack and defence should use 1, 2 or 3 dice" do 
 		  wardice = Wardice.new(0, 7)
 		  wardice.red.to_s.should match(/^[1-3]$/)
 		  wardice.yellow.to_s.should match(/^[1-3]$/)

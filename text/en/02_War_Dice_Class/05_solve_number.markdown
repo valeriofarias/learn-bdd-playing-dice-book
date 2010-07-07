@@ -1,6 +1,6 @@
 ## Solving the number issue
 
-If the class was initilized with numbers differents of the range (1..3) then the variables will be filled with a rand number between the range. I'll make also a little refactory in the spec file to put a situation that a number of dice is correct. You can see below the solution. 
+If the class was initialized with numbers differents of the range (1..3) then the variables will be filled with a rand number between the range. I'll make also a little refactory in the spec file to put a situation that a number of dice is correct. You can see below the solution. 
 
 	class WarDice 
 		attr_reader :red, :yellow
@@ -13,7 +13,7 @@ If the class was initilized with numbers differents of the range (1..3) then the
 	end
 
 	describe WarDice do
-		it "The attack and defense should use 1, 2 or 3 dice" do 
+		it "The attack and defence should use 1, 2 or 3 dice" do 
 		  wardice = Wardice.new(0, 7)
 		  wardice.red.to_s.should match(/^[1-3]$/)
 		  wardice.yellow.to_s.should match(/^[1-3]$/)
