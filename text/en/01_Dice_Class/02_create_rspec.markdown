@@ -11,7 +11,7 @@ First create the dice folder and the lib and spec folders inside it. Then you ha
 	  it "should have numbers 1 to 6"
 	end
 
-To execute this test open the terminal end enter in the dice folder and use the test commmand:
+To execute this test open the terminal end enter in the dice folder and use the test command:
 
 	cd dice
 	spec spec/dice_spec

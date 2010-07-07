@@ -13,8 +13,8 @@ Now I want that the dice play when it's initializing. The next test'll break.
 		  group.should match(/^[1-6]*[1-6]$/)
 		end
 
-		# Three groups of 1000 randomic numbers must be different each other
-		it "should show the numbers ramdomly" do 
+		# Three groups of 1000 random numbers must be different each other
+		it "should show the numbers randomly" do 
 		  dice = Dice.new
 		  group1 = (1..1_000).collect{ dice.play }
 		  group2 = (1..1_000).collect{ dice.play }

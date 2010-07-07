@@ -1,6 +1,6 @@
 ## Generate random number and refactory
 
-Now I have to generate random numbers and also have to refactory the first requirement that limit the numbers 1 to 6. This requirement must be tested with a variery of numbers instead of only one how it's right now. To play a little bit with ruby, I'll modify also the require code to simplify the number of lines.
+Now I have to generate random numbers and also have to refactory the first requirement that limit the numbers 1 to 6. This requirement must be tested with a variety of numbers instead of only one how it's right now. To play a little bit with ruby, I'll modify also the require code to simplify the number of lines.
 
 	class Dice
 		def play
@@ -17,7 +17,7 @@ Now I have to generate random numbers and also have to refactory the first requi
 		  group = (1..1_000).collect{ dice.play }.join
 		  group.should_not be_nil
 		  group.should_not be_empty
-		  group.should_not include('-') # Negative numbers aren't permited
+		  group.should_not include('-') # Negative numbers aren't permitted
 		  group.should_not include('0')
 		  group.should_not include('7')
 		  group.should_not include('8')
@@ -25,7 +25,7 @@ Now I have to generate random numbers and also have to refactory the first requi
 		end
 
 		# Three rand groups of 1000 numbers must be different each other
-		it "should show the numbers ramdomly" do 
+		it "should show the numbers randomly" do 
 		  dice = Dice.new
 		  group1 = (1..1_000).collect{ dice.play }
 		  group2 = (1..1_000).collect{ dice.play }

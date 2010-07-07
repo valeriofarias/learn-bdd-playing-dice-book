@@ -14,8 +14,8 @@ Now I also can make a little refactory in the dice_spec.rb. I'll put a block `be
 		  group.should match(/^[1-6]*[1-6]$/)
 		end
 
-		# Three groups of 1000 randomic numbers must be different each other
-		it "should show the numbers ramdomly" do 
+		# Three groups of 1000 random numbers must be different each other
+		it "should show the numbers randomly" do 
 		  group1 = (1..1_000).collect{ @dice.play }
 		  group2 = (1..1_000).collect{ @dice.play }
 		  group3 = (1..1_000).collect{ @dice.play }

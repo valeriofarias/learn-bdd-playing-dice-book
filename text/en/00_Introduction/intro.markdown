@@ -2,7 +2,7 @@
 
 Hello Ruby enthusiast! Hello BDD enthusiast! Welcome to this journey line by line, test by test, using the *Behaviour Driven Development* technique in a interesting project: *War Dice Simulation!*. I wrote this tiny book to learn BDD and RSpec for myself. I would want to start with a little example. And if was possible with a funny example too. Then I thought: Why not playing dice! Why not playing war dice! Then there you are: Learning BDD playing dice!
 
-The app that we'll create together uses two classes: Dice and WarDice. The first chapter I start to construct the RSpec file of Dice class and the Dice class simultaneously and step by step until all of the tests become green. together 
+The app that we'll create together uses two classes: Dice and WarDice. The first chapter I start to construct the RSpec file of Dice class and the Dice class simultaneously and step by step until all of the tests become green. 
 
 The second chapter I go on with the WarDice class, that is a simulation of each dice of war game! 
 

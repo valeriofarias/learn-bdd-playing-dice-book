@@ -1,6 +1,6 @@
 ## Fixing the random number failure
 
-Finaly let's put the command `rand(6) + 1` to limit the range 1 to 6 and let's refactore the requirement of the range to use regexp. Now the test pass :).
+Finally let's put the command `rand(6) + 1` to limit the range 1 to 6 and let's refactore the requirement of the range to use regexp. Now the test pass :).
 
 	class Dice
 		def play
@@ -19,7 +19,7 @@ Finaly let's put the command `rand(6) + 1` to limit the range 1 to 6 and let's r
 		end
 
 		# Three rand groups of 1000 numbers must be different each other
-		it "should show the numbers ramdomly" do 
+		it "should show the numbers randomly" do 
 		  dice = Dice.new
 		  group1 = (1..1_000).collect{ dice.play }
 		  group2 = (1..1_000).collect{ dice.play }

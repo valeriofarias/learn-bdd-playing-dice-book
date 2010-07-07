@@ -12,8 +12,8 @@ Let's work in the next requirement: "should store the last number after the dice
 		  group.should match(/^[1-6]*[1-6]$/)
 		end
 
-		# Three groups of 1000 randomic numbers must be different each other
-		it "should show the numbers ramdomly" do 
+		# Three groups of 1000 random numbers must be different each other
+		it "should show the numbers randomly" do 
 		  dice = Dice.new
 		  group1 = (1..1_000).collect{ dice.play }
 		  group2 = (1..1_000).collect{ dice.play }

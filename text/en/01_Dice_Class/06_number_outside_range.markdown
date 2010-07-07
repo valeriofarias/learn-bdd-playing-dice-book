@@ -8,7 +8,7 @@ Let's experiment to put a number outside of the range 1..6 to see what happens:
 		end
 	end
 
-Output: the test still failure becouse the number is outside the range.
+Output: the test still failure because the number is outside the range.
 
 	F
 
