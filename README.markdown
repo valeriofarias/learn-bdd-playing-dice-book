@@ -2,13 +2,13 @@
 
 ## Author 
 
-Valério Farias ([http://www.geyserway.com](http://www.geyserway.com))
+Valério Farias ([http://www.valeriofarias.com](http://www.valeriofarias.com))
 
 ## Getting started
 
 First you have to install the dependencies: 
 
-	prince, rdiscount, ultraviolet
+	prince, rdiscount, ultraviolet, tilt
 
 To generate the book run: 
 
@@ -22,3 +22,7 @@ This project has initially two versions of the book: English and Portuguese
 
 Now, just read the book and have fun!
 
+## License
+
+Source Code - MIT
+Ebook - Creative Commons
