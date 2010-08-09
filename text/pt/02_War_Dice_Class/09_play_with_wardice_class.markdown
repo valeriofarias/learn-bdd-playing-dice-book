@@ -23,6 +23,13 @@ Mostra o números nos dados amarelos e vermelhos:
 	1
 	=> nil
 
+Joga os dados:
+
+    >> puts wardice.attack
+    3
+    1
+    => nil
+
 Mostra o resultado:
 
 	>> puts wardice.result
