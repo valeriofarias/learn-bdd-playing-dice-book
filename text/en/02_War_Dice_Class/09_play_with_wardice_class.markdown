@@ -23,6 +23,13 @@ Show numbers in yellow and red dice:
 	1
 	1
 	=> nil
+	
+Play the dice
+
+    >> puts wardice.attack
+    3
+    1
+    => nil
 
 Show result:
 
