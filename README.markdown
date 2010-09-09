@@ -13,7 +13,7 @@ Do you have to install the dependencies:
 First you have to install prince from source:
 Prince: http://www.princexml.com/download/
 
-# Now install the required packages and gems:
+Now install the required packages and gems:
     sudo aptitude install libonig2 libonig-dev
     sudo gem install rdiscount ultraviolet tilt
 
