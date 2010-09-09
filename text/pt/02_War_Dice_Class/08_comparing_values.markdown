@@ -2,19 +2,19 @@
 
 Vamos trabalhar no último requisito:  **compara os valores do maior para o menor e salva em um array**.
 
-	describe Wardice do
+	describe WarDice do
 		it "permite a utilização de 1, 2 or 3 dados, para o ataque ou defesa." do
-		  wardice = Wardice.new(0, 7)
+		  wardice = WarDice.new(0, 7)
 		  wardice.red.to_s.should match(/^[1-3]$/)
 		  wardice.yellow.to_s.should match(/^[1-3]$/)
 
-		  wardice2 = Wardice.new(2, 3)
+		  wardice2 = WarDice.new(2, 3)
 		  wardice2.red.should == 2
 		  wardice2.yellow.should == 3
 		end
 
 		it "deve fornecer os resultados dos dados vermelho e amarelo em arrays em ordem decrescente" do
-		  wardice = Wardice.new(3, 3)
+		  wardice = WarDice.new(3, 3)
 		  wardice.reddice.is_a?(Array).should be_true
 		  wardice.yellowdice.is_a?(Array).should be_true
 		
@@ -24,18 +24,18 @@ Vamos trabalhar no último requisito:  **compara os valores do maior para o meno
 		end
 	
 		it "compara os valores do maior para o menor e salva em um array" do
-		  wardice = Wardice.new(3, 2)
+		  wardice = WarDice.new(3, 2)
 		  wardice.reddice.first.should > wardice.reddice.last
 		  wardice.attack
 
-		  wardice.result[0].should == "Red Win" if wardice.reddice[0] > wardice.yellowdice[0]
-		  wardice.result[0].should == "Yellow Win" if wardice.reddice[0] <= wardice.yellowdice[0]
+		  wardice.result[0].should == "Vermelho Venceu!" if wardice.reddice[0] > wardice.yellowdice[0]
+		  wardice.result[0].should == "Amarelo Venceu!" if wardice.reddice[0] <= wardice.yellowdice[0]
 		end
 	end
 
 A classe WarDice com os testes passando por completo:
 
-	class Wardice 
+	class WarDice 
 		attr_reader :red, :yellow, :reddice, :yellowdice, :result
 
 		def initialize(red, yellow)
